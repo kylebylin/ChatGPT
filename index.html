@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Kyle Bylin | Product Designer & Creative Technologist</title>
+    <meta
+      name="description"
+      content="Kyle Bylin is a product designer and creative technologist who helps teams craft human-centered digital experiences."
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -14,38 +18,63 @@
           <a href="#work">Work</a>
           <a href="#about">About</a>
           <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#testimonials">Testimonials</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
-      <div class="hero-content">
-        <p class="eyebrow">Hello, I’m</p>
-        <h1>Kyle Bylin</h1>
-        <p class="subtitle">
-          A product designer and creative technologist helping teams craft digital
-          experiences with clarity, personality, and measurable impact.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#contact">Start a project</a>
-          <a class="button ghost" href="#work">View selected work</a>
+      <div class="hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Hello, I’m</p>
+          <h1>Kyle Bylin</h1>
+          <p class="subtitle">
+            A product designer and creative technologist helping teams craft digital
+            experiences with clarity, personality, and measurable impact.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">Start a project</a>
+            <a class="button ghost" href="#work">View selected work</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <span class="stat-number">12+</span>
+              <span class="stat-label">Years designing</span>
+            </div>
+            <div>
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Launches shipped</span>
+            </div>
+            <div>
+              <span class="stat-number">4</span>
+              <span class="stat-label">Industries served</span>
+            </div>
+          </div>
         </div>
-        <div class="hero-stats">
-          <div>
-            <span class="stat-number">12+</span>
-            <span class="stat-label">Years designing</span>
+        <div class="hero-visual">
+          <div class="hero-card">
+            <p class="hero-card-title">Currently designing</p>
+            <h3>AI wellness dashboard</h3>
+            <p>
+              Translating biometric data into a calm, actionable experience for
+              busy clinicians.
+            </p>
           </div>
-          <div>
-            <span class="stat-number">50+</span>
-            <span class="stat-label">Launches shipped</span>
-          </div>
-          <div>
-            <span class="stat-number">4</span>
-            <span class="stat-label">Industries served</span>
+          <div class="hero-card secondary">
+            <p class="hero-card-title">Next availability</p>
+            <h3>Q3 2024</h3>
+            <p>Booking 2 new product teams for discovery + design systems.</p>
           </div>
         </div>
       </div>
     </header>
 
     <main>
+      <section class="section marquee">
+        <p>
+          Recent partners: Northwind Health · Signal Studio · Vista Mobility ·
+          Horizon Labs · Atlas Pay · Harbor Media
+        </p>
+      </section>
       <section id="work" class="section">
         <div class="section-header">
           <h2>Selected Work</h2>
@@ -56,28 +85,49 @@
         </div>
         <div class="cards">
           <article class="card">
-            <h3>Northwind Health</h3>
+            <div class="card-header">
+              <h3>Northwind Health</h3>
+              <span class="tag">Product Design</span>
+            </div>
             <p>
               Led a patient portal redesign that reduced support tickets by 32%
               and improved conversion to telehealth by 18%.
             </p>
-            <span class="tag">Product Design</span>
+            <ul class="card-list">
+              <li>Discovery workshops + journey mapping</li>
+              <li>Design system + clinical UI patterns</li>
+              <li>Prototype testing with nurses + caregivers</li>
+            </ul>
           </article>
           <article class="card">
-            <h3>Signal Studio</h3>
+            <div class="card-header">
+              <h3>Signal Studio</h3>
+              <span class="tag">Brand Systems</span>
+            </div>
             <p>
               Built a modular brand system and component library used across four
               SaaS products and two marketing teams.
             </p>
-            <span class="tag">Brand Systems</span>
+            <ul class="card-list">
+              <li>Scaled marketing → product consistency</li>
+              <li>Defined motion + illustration guidelines</li>
+              <li>Handed off tokens + Figma libraries</li>
+            </ul>
           </article>
           <article class="card">
-            <h3>Vista Mobility</h3>
+            <div class="card-header">
+              <h3>Vista Mobility</h3>
+              <span class="tag">Experience Design</span>
+            </div>
             <p>
               Crafted an AR onboarding experience that shortened driver training
               time by 24% and boosted satisfaction scores.
             </p>
-            <span class="tag">Experience Design</span>
+            <ul class="card-list">
+              <li>Spatial UX + motion choreography</li>
+              <li>Field research with delivery teams</li>
+              <li>Interactive onboarding playbooks</li>
+            </ul>
           </article>
         </div>
       </section>
@@ -121,6 +171,7 @@
               A 2-week sprint to clarify goals, map user journeys, and deliver
               clickable prototypes.
             </p>
+            <p class="service-meta">Best for: New product bets & pivots</p>
           </div>
           <div class="service">
             <h3>Design System Build</h3>
@@ -128,6 +179,7 @@
               Modular UI kit, documentation, and governance to scale your product
               and keep teams aligned.
             </p>
+            <p class="service-meta">Best for: Multi-team platforms</p>
           </div>
           <div class="service">
             <h3>Creative Direction</h3>
@@ -135,7 +187,55 @@
               Brand expression, visual language, and storytelling to make your
               product feel distinct.
             </p>
+            <p class="service-meta">Best for: Rebrands & launches</p>
           </div>
+        </div>
+      </section>
+
+      <section id="process" class="section alt">
+        <div class="section-header">
+          <h2>Process</h2>
+          <p>A collaborative cadence that keeps teams aligned and moving fast.</p>
+        </div>
+        <div class="process-grid">
+          <div class="process-step">
+            <span class="step-number">01</span>
+            <h3>Discover</h3>
+            <p>Align on goals, success metrics, and user needs through workshops.</p>
+          </div>
+          <div class="process-step">
+            <span class="step-number">02</span>
+            <h3>Design</h3>
+            <p>Create flows, prototypes, and system foundations with rapid feedback.</p>
+          </div>
+          <div class="process-step">
+            <span class="step-number">03</span>
+            <h3>Deliver</h3>
+            <p>Hand off polished UI, specs, and storytelling assets for launch.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section">
+        <div class="section-header">
+          <h2>Client notes</h2>
+          <p>What partners say after shipping together.</p>
+        </div>
+        <div class="testimonial-grid">
+          <blockquote class="testimonial">
+            <p>
+              “Kyle brought clarity to a complicated roadmap and helped us launch
+              our MVP in half the time.”
+            </p>
+            <cite>— Maya Singh, VP Product, Horizon Labs</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>
+              “His design system thinking kept five teams aligned while we scaled
+              globally.”
+            </p>
+            <cite>— Ben Ortiz, Design Director, Atlas Pay</cite>
+          </blockquote>
         </div>
       </section>
 
@@ -146,6 +246,12 @@
             Reach out to share what you’re working on. Kyle is available for
             select collaborations and advisory roles.
           </p>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:hello@kylebylin.com"
+              >Email Kyle</a
+            >
+            <a class="button ghost" href="#services">Explore services</a>
+          </div>
         </div>
         <div class="contact-card">
           <p class="contact-label">Email</p>
